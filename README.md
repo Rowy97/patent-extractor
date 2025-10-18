@@ -26,15 +26,3 @@ pip install -r requirements.txt
 # 4) Run
 python app.py
 ```
-
-## Package on Mac
-
-```bash
-pyinstaller PatentExtractor.spec
-```
-
-Test from Terminal (shows real errors if any):
-
-```bash
-./dist/PatentExtractor.app/Contents/MacOS/PatentExtractor
-```
