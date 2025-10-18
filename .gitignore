@@ -1,0 +1,122 @@
+# =====================================================
+# PatentExtractor / PDF Extraction Project GitIgnore
+# =====================================================
+
+# -------------------------------
+# Python cache and env files
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.sqlite3
+.idsvenv/
+
+# -------------------------------
+# Build & Distribution
+# -------------------------------
+build/
+dist/
+dmg-staging/
+input/
+*.spec
+*.log
+*.tmp
+*.bak
+
+# -------------------------------
+# Output files and reports
+# -------------------------------
+# PDF extraction results
+/out/
+IDS-Results/
+results/
+exports/
+*.csv
+*.xlsx
+*.xls
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.icns
+*.sh
+hook/
+
+# -------------------------------
+# OCR / Translation / Model Data
+# -------------------------------
+# Poppler binaries and data
+poppler/
+poppler-*/ 
+# Argos Translate model folders
+argos_models/
+argos_translate_models/
+*.argosmodel
+# EasyOCR / PyTorch / Tesseract models
+models/
+tessdata/
+*.traineddata
+*.pth
+*.zip
+*.tar
+*.tar.gz
+
+# -------------------------------
+# IDE and project metadata
+# -------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------------
+# OS-specific files
+# -------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------------------
+# PyInstaller / Executables
+# -------------------------------
+# Generated executables
+*.exe
+*.app
+*.dmg
+*.msi
+*.pkg
+*.tar.gz
+*.zip
+# Internal PyInstaller temp dirs
+__pyinstaller/
+_Mei*/
+_MEI*/
+
+# -------------------------------
+# 🧪 Test / Debug artifacts
+# -------------------------------
+*.pytest_cache/
+*.coverage
+.cache/
+debug/
+tmp/
+logs/
+error.log
+
+# -------------------------------
+# No Shown Files
+# -------------------------------
+test_ids_data/
+old_app.py
